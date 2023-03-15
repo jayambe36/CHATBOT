@@ -1,54 +1,53 @@
-# CHATBOT
+# Chatbot Deployment with Flask and JavaScript
 
+In this tutorial we deploy the chatbot I created with Flask and JavaScript.
 
+This gives 2 deployment options:
+- Deploy within Flask app with jinja2 template
+- Serve only the Flask prediction API. The used html and javascript files can be included in any Frontend application (with only a slight modification) and can run completely separate from the Flask App then.
 
+## Initial Setup:
+This repo currently contains the starter files.
 
-open anaconda prompt
-
-drive c to f
-
-(base) C:\>F:
-(base) F:\>dir //work like ls in ubantu in win10 we use dir
-
-(base) F:\anaconda system>conda create -n my_venv python=3.10
-
-(base) F:\anaconda system>conda activate my_venv
-
-(my_venv) F:\anaconda system>pip install Flask torch torchvision nltk
-
-(my_venv) F:\anaconda system\chatbot>pip install nltk
-
-(my_venv) F:\anaconda system\chatbot>python
-
+Clone repo and create a virtual environment
+```
+$ git clone https://github.com/python-engineer/chatbot-deployment.git
+$ cd chatbot-deployment
+$ python3 -m venv venv
+$ . venv/bin/activate
+```
+Install dependencies
+```
+$ (venv) pip install Flask torch torchvision nltk
+```
+Install nltk package
+```
+$ (venv) python
 >>> import nltk
 >>> nltk.download('punkt')
+```
+Modify `intents.json` with different intents and responses for your Chatbot
 
-(my_venv) F:\anaconda system\chatbot>python train.py
+Run
+```
+$ (venv) python train.py
+```
+This will dump data.pth file. And then run
+the following command to test it in the console.
+```
+$ (venv) python chat.py
+```
 
+Now for deployment follow my tutorial to implement `app.py` and `app.js`.
 
-(my_venv) F:\anaconda system\chatbot>flask --app app run
- * Serving Flask app 'app'
- * Debug mode: off
-WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
- * Running on http://127.0.0.1:5000
-Press CTRL+C to quit
-127.0.0.1 - - [23/Feb/2023 15:29:32] "GET / HTTP/1.1" 200 -
-127.0.0.1 - - [23/Feb/2023 15:29:32] "GET /static/style.css HTTP/1.1" 304 -
-127.0.0.1 - - [23/Feb/2023 15:29:32] "GET /static/app.js HTTP/1.1" 304 -
-127.0.0.1 - - [23/Feb/2023 15:29:32] "GET /static/images/chatbox-icon.svg HTTP/1.1" 304 -
-127.0.0.1 - - [23/Feb/2023 15:29:37] "POST /predict HTTP/1.1" 200 -
-127.0.0.1 - - [23/Feb/2023 15:29:45] "POST /predict HTTP/1.1" 200 -
-127.0.0.1 - - [23/Feb/2023 15:29:48] "POST /predict HTTP/1.1" 200 -
-127.0.0.1 - - [23/Feb/2023 15:30:00] "POST /predict HTTP/1.1" 200 -
-127.0.0.1 - - [23/Feb/2023 15:30:04] "POST /predict HTTP/1.1" 200 -
-127.0.0.1 - - [23/Feb/2023 15:30:21] "POST /predict HTTP/1.1" 200 -
-127.0.0.1 - - [23/Feb/2023 15:30:32] "POST /predict HTTP/1.1" 200 -
-127.0.0.1 - - [23/Feb/2023 15:30:44] "POST /predict HTTP/1.1" 200 -
+## Watch the Tutorial
+[![Alt text](https://img.youtube.com/vi/a37BL0stIuM/hqdefault.jpg)](https://youtu.be/a37BL0stIuM)  
+[https://youtu.be/a37BL0stIuM](https://youtu.be/a37BL0stIuM)
 
+## Note
+In the video we implement the first approach using jinja2 templates within our Flask app. Only slight modifications are needed to run the frontend separately. I put the final frontend code for a standalone frontend application in the [standalone-frontend](/standalone-frontend) folder.
 
-====================================================================================================
+## Credits:
+This repo was used for the frontend code:
+https://github.com/hitchcliff/front-end-chatjs
 
-
-in chrome run this 
-
-http://127.0.0.1:5000

@@ -1,0 +1,23 @@
+{
+  "intents": [
+    {
+      "tag": "newapplication",
+      "patterns": [
+        "પ્રિમિયમના નાણાં ભરવાની મુદત વધારવા",
+        "પ્રીમિયમ ચુકવણીના સમયગાળાને વિસ્તૃત કરવા માટે હું શું કરી શકું?",
+        "પ્રીમિયમ ભરવા માટે મારા પાસે કોઈ ઓનલાઇન સુવિધા છે કે નહીં?"
+      ],
+      "responses": [
+        "અંહિ ક્લિક કરો: https://iora.gujarat.gov.in/OnlineAppl.aspx#"
+
+
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?",
+
+        
+      ]
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+mayur bhai
+9924519356
+
+
+
+	{
+      "tag": "new application",
+      "patterns": [
+        "પ્રિમિયમના નાણાં ભરવાની મુદત વધારવા",
+        "પ્રીમિયમ ચુકવણીના સમયગાળાને વિસ્તૃત કરવા માટે હું શું કરી શકું?",
+		"what can I do for expand the period of Premium Payment?"
+      ],
+      "responses": [
+        "અંહિ ક્લિક કરો : https://iora.gujarat.gov.in/OnlineAppl.aspx#"
+      ]
+    },
+
+
+input :
+
+New / Registered Application
+(નવી  /  દાખલ કરેલ અરજી માટે)
+Premium Payment Extension
+(પ્રિમિયમના નાણાં ભરવાની મુદત વધારવા)
+Show Cause Notice Presentation
+(કારણદર્શક નોટિસ અન્વયેની રજૂઆત)
+
+
+if you want to fill up form for 
+new application like : 
+
+પ્રિમિયમ ભરવા પરવાનગી મેળવવા
+બિનખેતી પરવાનગી મેળવવા
+બિનખેતી પ્રિમિયમ સાથે બિનખેતી પરવાનગી
+પ્રામાણિક ઔદ્યોગિક હેતુ પ્રમાણ૫ત્ર મેળવવા
+જમીન ખરીદવા પરવાનગી મેળવવા
+જમીન વેચાણ પરવાનગી મેળવવા
+હક્કપત્રક સંબંધિત અરજી
+સિટી સરવે કચેરી સંબંધિત અરજી
+સબ-રજીસ્ટ્રાર કચેરી સંબધિત અ
+જમીન માપણી સંબધ
+ખેડૂત ખરાઇ પ્રમાણપત્ર મેળવવા
+ગુજરાત જમીન પચાવવા પર (પ્રતિબંધ) અધિનિયમ-૨૦૨૦
+
+output : 
+Go to this link : 
+https://iora.gujarat.gov.in/OnlineAppl.aspx#
+
+
+
+
+
+
+====================================
+1 RURAL LAND RECORD (ગ્રામ્ય જમીનનો રેકર્ડ)
+
+Go To This Link : 
+https://anyror.gujarat.gov.in/LandRecordRural.aspx
+
+e-CHAVDI (ઈ-ચાવડી)
+//require info
+District (જીલ્લો)
+Taluka (તાલુકો)
+Village (ગામ)
+
+KNOW CLOSED SURVEY NO DETAIL (બીનખેતી હુકમથી બંધ થયેલ સરવે નંબરની વિગતો જાણવા)
+//require info
+District (જીલ્લો)
+Taluka (તાલુકો)
+Village (ગામ)
+Survey/ Block Number (સરવે/ બ્લોક નંબર)
+
+OLD SCANNED VF-7/12 DETAILS (જૂના સ્કેન કરેલ ગા.ન. ૭/૧૨ ની વિગતો)
+//require info
+District (જીલ્લો)
+Taluka (તાલુકો)
+Village (ગામ)
+Scanned Record Survey/ Block Number (સ્કેન રેકર્ડ મુજબ સરવે/ બ્લોક નંબર)
+
+OLD SCANNED VF-6 ENTRY DETAILS (જૂના સ્કેન કરેલ હક્ક પત્રક ગા.ન. ૬ ની વિગતો)
+//require info
+District (જીલ્લો)
+Taluka (તાલુકો)
+Village (ગામ)
+Entry Number (નોંધ નંબર)
+
+VF-7 SURVEY NO DETAILS (ગા.ન. ૭ ની વિગતો)
+//require info
+District (જીલ્લો)
+Taluka (તાલુકો)
+Village (ગામ)
+Survey/ Block Number (સરવે/ બ્લોક નંબર)
+
+VF-8A KHATA DETAILS (ગા.ન. ૮અ ની વિગતો)
+//require info
+District (જીલ્લો)
+Taluka (તાલુકો)
+Village (ગામ)
+Khata Number (ખાતા નંબર)
+
+
+VF-6 ENTRY DETAILS (હક્ક પત્રક ગા.ન. ૬ ની વિગતો)
+//require info
+District (જીલ્લો)
+Taluka (તાલુકો)
+Village (ગામ)
+Entry Number (નોંધ નંબર)
+
+
+135-D NOTICE FOR MUTATION (હક્ક પત્રક ફેરફાર માટે ૧૩૫-ડી નોટીસ)
+//require info
+District (જીલ્લો)
+Taluka (તાલુકો)
+Village (ગામ)
+Entry Number (નોંધ નંબર)
+
+ENTRY LIST BY MONTH-YEAR (વર્ષ અને મહિના મુજબ નોંધોની વિગત)
+//require info
+District (જીલ્લો)
+Taluka (તાલુકો)
+Village (ગામ)
+Old Survey Number (જુનો સરવે નંબર)
+
+
+INTEGRATED SURVEY NO DETAILS (સરવે નંબરને લગતી સંપૂર્ણ માહિતી)
+//require info
+District (જીલ્લો)
+Taluka (તાલુકો)
+Village (ગામ)
+Old Survey Number (જુનો સરવે નંબર)
+
+REVENUE CASE DETAILS (જમીન રેકર્ડ ને લગતા કેસની વિગત)
+//require info
+District (જીલ્લો)
+Taluka (તાલુકો)
+Village (ગામ)
+Survey/ Block Number (સરવે/ બ્લોક નંબર)
+
+KNOW KHATA BY OWNER NAME (ખાતેદારના નામ પરથી ખાતુ જાણવા)
+//require info
+District (જીલ્લો)
+Taluka (તાલુકો)
+Village (ગામ)
+Owner Name (ખાતેદારનું નામ)
+
+KNOW SURVEY NO DETAIL BY UPIN (UPIN પરથી સરવે નંબરની વિગત જાણવા)
+//require info
+UPIN (યુનિક પ્રોપર્ટી આઇડેન્ટિફિકેશન નંબર)
+
+===========================
+
+
+
+2  ડિજિટલી સીલ્ડ પ્રોપર્ટિકાર્ડની નકલ
+go to this link : https://e-milkat.gujarat.gov.in/IoraOnlinePcard/IoraOnlinePCard.aspx
+
+3 ડિજિટલી સાઇન્ડ દસ્તાવેજની પ્રમાણિત નકલ
